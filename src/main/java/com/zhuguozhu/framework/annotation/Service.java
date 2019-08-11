@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * ·şÎñÀà×¢½â
+ * æœåŠ¡ç±»æ³¨è§£
  * @author Guozhu Zhu
  * @date 2019/07/01
  * @version 1.0

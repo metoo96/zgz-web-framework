@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * Json¹¤¾ßÀà
+ * Jsonå·¥å…·ç±»
  * @author Guozhu Zhu
  * @date 2019/07/14
  * @version 1.0
@@ -18,7 +18,7 @@ public class JsonUtil {
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
     
     /**
-     * ½«POJO×ªÎªJson
+     * å°†POJOè½¬ä¸ºJson
      */
     public static <T> String toJson(T obj) {
     	System.out.println(obj);
@@ -33,7 +33,7 @@ public class JsonUtil {
     }
     
     /**
-     * ½«Json×ªÎªPOJO
+     * å°†Jsonè½¬ä¸ºPOJO
      */
     public static <T> T fromJson(String json, Class<T> type) {
     	T pojo;

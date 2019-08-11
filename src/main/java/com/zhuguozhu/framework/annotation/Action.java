@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Action·½·¨×¢½â
+ * Actionæ–¹æ³•æ³¨è§£
  * @author Guozhu Zhu
  * @date 2019/07/01
  * @version 1.0
@@ -17,7 +17,7 @@ import java.lang.annotation.Target;
 public @interface Action {
 	
 	/**
-	 * ÇëÇóÀàĞÍÓëÂ·¾¶
+	 * è¯·æ±‚ç±»å‹ä¸è·¯å¾„
 	 */
 	String value();
 

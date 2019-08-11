@@ -1,7 +1,7 @@
 package com.zhuguozhu.framework.bean;
 
 /**
- * 封装表单参数
+ * 灏佽琛ㄥ崟鍙傛暟
  * @author Guozhu Zhu
  * @date 2019/07/23
  * @version 1.0

@@ -8,7 +8,7 @@ import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
 /**
- * ´úÀí¹ÜÀíÆ÷
+ * ä»£ç†ç®¡ç†å™¨
  * @author Guozhu Zhu
  * @date 2019/07/19
  * @version 1.0

@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 定义需要事务控制的方法
+ * 瀹氫箟闇�瑕佷簨鍔℃帶鍒剁殑鏂规硶
  * @author Guozhu Zhu
  * @date 2019/07/21
  * @version 1.0

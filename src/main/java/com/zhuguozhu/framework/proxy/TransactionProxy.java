@@ -9,7 +9,7 @@ import com.zhuguozhu.framework.annotation.Transaction;
 import com.zhuguozhu.framework.helper.DatabaseHelper;
 
 /**
- * 事务代理
+ * 浜嬪姟浠ｇ悊
  * @author Guozhu Zhu
  * @date 2019/07/21
  * @version 1.0

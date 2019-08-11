@@ -1,7 +1,7 @@
 package com.zhuguozhu.framework.proxy;
 
 /**
- * 定义代理接口
+ * 瀹氫箟浠ｇ悊鎺ュ彛
  * @author Guozhu Zhu
  * @date 2019/07/18
  * @version 1.0

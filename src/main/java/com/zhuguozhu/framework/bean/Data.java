@@ -1,7 +1,7 @@
 package com.zhuguozhu.framework.bean;
 
 /**
- * 返回数据对象
+ * 杩斿洖鏁版嵁瀵硅薄
  * @author Guozhu Zhu
  * @date 2019/07/13
  * @version 1.0
