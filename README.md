@@ -43,7 +43,7 @@ com/
 　　　　　　┗ service/
 ```
 
-可见，基础包名为：org.zgz.sample，下面的配置中会用到它。
+可见，基础包名为：com.zgz.sample，下面的配置中会用到它。
 
 ### 2. 配置 Maven 依赖
 
@@ -66,7 +66,7 @@ zgz.framework.jdbc.driver=com.mysql.jdbc.Driver
 zgz.framework.jdbc.url=jdbc:mysql://localhost:3306/test
 zgz.framework.jdbc.username=root
 zgz.framework.jdbc.password=root
-zgz.framework.app.base_package=com.zhuguozhu
+zgz.framework.app.base_package=com.zgz.sample
 zgz.framework.app.jsp_path=/WEB-INF/view/
 zgz.framework.app.asset_path=/asset/
 zgz.framework.app.upload.limit=20
@@ -111,7 +111,7 @@ public class HelloController {
 ### 3. 获取请求参数 
 
 ```
-    @Action("post:/hello")
+        @Action("post:/hello")
 	public View hello(Param param) {
 		Map<String, Object> fieldMap = param.getFieldMap(); // 参数Map,可通过key获取value
 		return new View("hello.jsp");
@@ -122,7 +122,7 @@ public class HelloController {
 
 通过封装的ServletHelper助手类进行操作。
 ```
-    @Action("post:/hello")
+        @Action("post:/hello")
 	public View hello(Param param) {
 		ServletHelper.setSessionAttribute("zhuguozhu", "zhuguozhu-session");
 		ServletHelper.setCookie("zhu", "zhu-cookie", -1);
@@ -133,7 +133,7 @@ public class HelloController {
 
 ### 5. 文件上传
 
-通过封装的UploadHelper助手类进行操作。
+通过封装的UploadHelper助手类进行操作, 可支持单文件及多文件上传。
 Controller部分:
 ```
 @Controller
@@ -164,7 +164,6 @@ public class UploadService {
 
 }
 ```
-以上示例是单文件上传。
 
 ### 6. 简单的事务控制
 
