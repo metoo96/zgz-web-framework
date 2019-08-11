@@ -43,7 +43,7 @@ com/
 　　　　　　┗ service/
 ```
 
-可见，基础包名为：com.zgz.sample，下面的配置中会用到它。
+可见，基础包名为：com.zhuguozhu.sample，下面的配置中会用到它。
 
 ### 2. 配置 Maven 依赖
 
@@ -51,9 +51,9 @@ com/
 
 ```xml
 <dependency>
-			<groupId>com.zhuguozhu</groupId>
-			<artifactId>zgz-framework</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+	<groupId>com.zhuguozhu</groupId>
+	<artifactId>zgz-framework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -66,7 +66,7 @@ zgz.framework.jdbc.driver=com.mysql.jdbc.Driver
 zgz.framework.jdbc.url=jdbc:mysql://localhost:3306/test
 zgz.framework.jdbc.username=root
 zgz.framework.jdbc.password=root
-zgz.framework.app.base_package=com.zgz.sample
+zgz.framework.app.base_package=com.zhuguozhu.sample
 zgz.framework.app.jsp_path=/WEB-INF/view/
 zgz.framework.app.asset_path=/asset/
 zgz.framework.app.upload.limit=20
@@ -104,7 +104,7 @@ public class HelloController {
 在需要注入的类加上@Service注解。
 然后在需要使用的类中加上@Inject注解即可。
 ```
-    @Inject
+        @Inject
 	private HelloService HelloService;
 ```	
 
@@ -157,7 +157,7 @@ Service部分:
 @Service
 public class UploadService {
 	
-	public boolean create(Map<String, Object> fieldMap, FileParam fileParam)  {
+	public boolean upload(Map<String, Object> fieldMap, FileParam fileParam)  {
 		UploadHelper.uploadFile("G:tmp/upload/", fileParam);
 		return true;
 	}
