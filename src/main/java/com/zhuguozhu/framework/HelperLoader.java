@@ -8,7 +8,7 @@ import com.zhuguozhu.framework.helper.IocHelper;
 import com.zhuguozhu.framework.util.ClassUtil;
 
 /**
- * Í³Ò»¼ÓÔØÏàÓ¦µÄHelperÀà
+ * ç»Ÿä¸€åŠ è½½ç›¸åº”çš„Helperç±»
  * @author Guozhu Zhu
  * @date 2019/07/12
  * @version 1.0
